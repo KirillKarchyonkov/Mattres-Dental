@@ -187,6 +187,8 @@ body, html {
 .list li{
     margin: 15px 0;
     font-size: 20px;
+    position: relative;
+    z-index: 3;
 }
 
 /*.list li:hover{
