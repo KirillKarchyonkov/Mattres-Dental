@@ -207,7 +207,7 @@ body, html {
 
 .why__list li::before{
     content: '';
-    background: url('/img/main/icons8-галочка-20.png') 0 1px no-repeat ;
+    background: url('../img/main/icons8-галочка-20.png') 0 1px no-repeat ;
 }
 
 .product__list li::before{
