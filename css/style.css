@@ -324,12 +324,12 @@ body, html {
 
 .slider__body .slick-arrow.slick-prev{
    left: 1%;
-   background: url('../img/arrow/icons8-шеврон-влево-в-круге-50.png');
+   background: url('../img/arrow/icons8-назад-50.png');
 }
 
 .slider__body .slick-arrow.slick-next{
     right: 1%;
-    background: url('../img/arrow/icons8-шеврон-вправо-в-круге-50.png');
+    background: url('../img/arrow/icons8-вперед-50.png');
  }
 .bigslider__item {
     min-width: 0;
@@ -373,6 +373,24 @@ body, html {
 .review__body {
     margin: 0 0 30px 0;
 }
+
+.review__link {
+  position: absolute;
+  top: -90px;
+}
+.review {
+    position: relative;
+}
+
+.bigslider__link {
+    position: absolute;
+    top: -90px;
+  }
+.bigslider{
+    position: relative;
+}
+
+
 @media(max-width:767px){
     body.lock{
         overflow: hidden;
@@ -551,4 +569,14 @@ body, html {
         right: 0;
         background: url('../img/arrow/icons8-вперед-40.png') 0 1px no-repeat;
      }
+     .review__body {
+        margin: 0 0 30px 0;
+    }
+    
+    .review__link {
+      top: -50px;
+    }
+    .bigslider__link {
+      top: -50px;
+    }
 }
