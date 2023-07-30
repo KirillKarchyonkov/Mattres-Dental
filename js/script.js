@@ -29,7 +29,18 @@ $(document).ready(function(){
       fade:true,
       draggable:false,
       swipe:true,
-      asNavFor:".slider__body"
+      asNavFor:".slider__body",
+      responsive: [
+         {
+            breakpoint: 767,
+            settings: {
+               arrows:true,
+               fade:false,
+               draggable:true,
+               dots:true
+            }
+         }
+      ]
 
    });
    $('.header__burger').click(function(event){
