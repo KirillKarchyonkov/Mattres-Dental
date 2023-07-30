@@ -482,5 +482,31 @@ body, html {
         padding: 0 0 20px;
         
     }
-
+    .why__list li::before{
+        content: '';
+        background: url('../img/main/icons8-галочка-15.png') 0 1px no-repeat ;
+    }
+    
+    .product__list li::before{
+        content: '';
+        background: url('../img/main/icons8-рука-вправо-15.png') 0 1px no-repeat;
+    }
+    .price__list li::before{
+        content: '';
+        background: url('../img/main/icons8-рубль-15.png') 0 1px no-repeat;
+    }
+    
+    .delivery__list li::before{
+        content: '';
+        background: url('../img/main/icons8-доставляется-15.png') 0 1px no-repeat;
+    }
+    .list li::before{
+        content: '';
+        width: 15px;
+        height: 15px;
+        margin: 0 5px 0 0;
+    }
+    .slider__body {
+        display: none;
+     }
 }
