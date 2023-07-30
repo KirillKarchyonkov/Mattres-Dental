@@ -468,6 +468,9 @@ body, html {
         font-size: 14px;
         margin: 10px 0px 10px 10px;
     }
+    .delivery{
+        margin: 0px 0px 20px 0px;
+    }
     .footer__number {
         display: block;
      }
