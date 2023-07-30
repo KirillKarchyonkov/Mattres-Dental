@@ -200,8 +200,7 @@ body, html {
     height: 20px;
     display: inline-block;
     margin: 0 10px 0 0;
-    position: relative;
-    z-index: 3;
+    
 }
 
 
@@ -212,7 +211,7 @@ body, html {
 
 .product__list li::before{
     content: '';
-    background: url('/img/main/icons8-рука-вправо-20.png') 0 1px no-repeat;
+    background: url('../img/main/icons8-рука-вправо-20.png') 0 1px no-repeat;
 }
 
 .tdlr {
@@ -221,12 +220,12 @@ body, html {
 
 .price__list li::before{
     content: '';
-    background: url('/img/main/icons8-рубль-20.png') 0 1px no-repeat;
+    background: url('../img/main/icons8-рубль-20.png') 0 1px no-repeat;
 }
 
 .delivery__list li::before{
     content: '';
-    background: url('/img/main/icons8-доставляется-20.png') 0 1px no-repeat;
+    background: url('../img/main/icons8-доставляется-20.png') 0 1px no-repeat;
 }
 
  
