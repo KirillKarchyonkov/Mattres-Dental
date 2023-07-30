@@ -185,7 +185,7 @@ body, html {
 
 
 .list li{
-    margin: 15px 0;
+    margin: 15px 0px 15px 20px;
     font-size: 20px;
     position: relative;
     z-index: 2;
@@ -466,7 +466,7 @@ body, html {
     }
     .list li {
         font-size: 14px;
-        margin: 10px 0;
+        margin: 10px 0px 10px 10px;
     }
     .footer__number {
         display: block;
